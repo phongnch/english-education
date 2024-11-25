@@ -3,27 +3,27 @@ import { FeatureTab } from "@/types/featureTab";
 const featuresTabData: FeatureTab[] = [
   {
     id: "tabOne",
-    title: "Solid Has Neat & Clean User Interface.",
+    title: "Roadmap (1) Title.",
     desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
     desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    image: "https://placehold.co/600x400/png",
+    imageDark: "https://placehold.co/600x400/png",
   },
   {
     id: "tabTwo",
-    title: "Ready to Use Pages You Need for a SaaS Business.",
+    title: "Roadmap (2) Title.",
     desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
     desc2: `    Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    image: "https://placehold.co/600x400/png",
+    imageDark: "https://placehold.co/600x400/png",
   },
   {
     id: "tabThree",
-    title: "Functional Blog, DB, Auth and Many More",
+    title: "Roadmap (3) Title.",
     desc1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus non fermentum ultrices. Fusce consectetur le.`,
     desc2: `Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec finibus sagittis. Nulla ligula nunc egestas ut.`,
-    image: "/images/features/features-light-01.png",
-    imageDark: "/images/features/features-dark-01.svg",
+    image: "https://placehold.co/600x400/png",
+    imageDark: "https://placehold.co/600x400/png",
   },
 ];
 
