@@ -16,16 +16,19 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Brand Name - Short Description(1)
+                🔥 Lorem - consectetur adipiscing elit
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Short Description (2) {"   "}
+                Lorem ipsum dolor sit ame {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  English
+                  Lorem
                 </span>
               </h1>
               <p>
-                3-4 rows Description.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                ultricies lacus non fermentum ultrices. Fusce consectetur le.
+                Nam id eleifend dui, id iaculis purus. Etiam lobortis neque nec
+                finibus sagittis. Nulla ligula nunc egestas ut.
               </p>
 
               <div className="mt-10">
@@ -42,11 +45,14 @@ const Hero = () => {
                       aria-label="get started button"
                       className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                     >
-                      Get Advice 🔥
+                      Get Started
                     </button>
                   </div>
                 </form>
 
+                <p className="mt-5 text-black dark:text-white">
+                  Try for free no credit card required.
+                </p>
               </div>
             </div>
 
@@ -74,16 +80,17 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
                 <div className=" relative aspect-[700/444] w-full">
-                  <img
+                  <Image
                     className="shadow-solid-l dark:hidden"
-                    src="https://placehold.co/600x400/png"
+                    src="/images/hero/hero-light.svg"
                     alt="Hero"
-                    
+                    fill
                   />
-                  <img
+                  <Image
                     className="hidden shadow-solid-l dark:block"
-                    src="https://placehold.co/600x400/png"
+                    src="/images/hero/hero-dark.svg"
                     alt="Hero"
+                    fill
                   />
                 </div>
               </div>

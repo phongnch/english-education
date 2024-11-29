@@ -28,15 +28,17 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
-              <img
-                src="https://placehold.co/600x400/png"
+              <Image
+                src="/images/about/about-light-01.png"
                 alt="About"
                 className="dark:hidden"
+                fill
               />
-              <img
-                src="https://placehold.co/600x400/png"
+              <Image
+                src="/images/about/about-dark-01.png"
                 alt="About"
                 className="hidden dark:block"
+                fill
               />
             </motion.div>
             <motion.div
@@ -61,12 +63,12 @@ const About = () => {
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "}
-                Standout activities
+                Lorem ipsum dolor sit amet
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Title -
+                A Complete Solution for
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  Subtitle
+                  SaaS Startup
                 </span>
               </h2>
               <p>
@@ -82,7 +84,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Note 1 (if needed)
+                    Lorem ipsum dolor sit amet
                   </h3>
                   <p>Ut ultricies lacus non fermentum ultrices.</p>
                 </div>
@@ -95,7 +97,7 @@ const About = () => {
                 </div>
                 <div className="w-3/4">
                   <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                    Note 2 (if needed)
+                    Fully Customizable
                   </h3>
                   <p>consectetur adipiscing elit fermentum ultricies.</p>
                 </div>
@@ -129,12 +131,12 @@ const About = () => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-              Standout activities (2)
+                Launch Your SaaS Fast
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Title -
+                Packed with All Essential {"   "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
-                  Subtitle
+                  Integrations
                 </span>
               </h2>
               <p>
@@ -178,17 +180,7 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
-              <img
-                src="https://placehold.co/600x400/png"
-                alt="About"
-                className="dark:hidden"
-              />
-              <img
-                src="https://placehold.co/600x400/png"
-                alt="About"
-                className="hidden dark:block"
-              />
-              {/* <Image
+              <Image
                 src="./images/about/about-light-02.svg"
                 alt="About"
                 className="dark:hidden"
@@ -199,7 +191,7 @@ const About = () => {
                 alt="About"
                 className="hidden dark:block"
                 fill
-              /> */}
+              />
             </motion.div>
           </div>
         </div>
